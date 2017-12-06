@@ -1,0 +1,49 @@
+body.is-light {
+    background: #fbfbfb;
+}
+
+.is-primary:not(.is-inverted) {
+    background: #41D8BC !important;
+}
+
+.is-transparent {
+    background: transparent;
+}
+
+.notification {
+    padding: 1.25rem 1.5rem;
+}
+
+.menu-list .is-active {
+    background: #41D8BC !important;
+}
+
+.image.is-rounded img {
+    border-radius: 50%;
+}
+
+.navbar .navbar-brand.is-large {
+    position: absolute;
+    height: 100px;
+}
+
+.navbar .navbar-brand.is-large img {
+    max-height: inherit;
+    height: 100px;
+}
+
+#hero-container {
+    left: 0;
+    width: 90%;
+    position: absolute;
+    text-align: center;
+    margin: 50px 5% 0 5%;
+}
+
+.media .media-content .title {
+    margin-top: 20px;
+}
+
+.team-profiles img {
+    background: #41D8BC;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CCI Dean's Ambassador Program</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <!-- top navigation bar -->
+    <nav class="navbar is-white" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand is-large">
+                <img src="img/logo.png" alt="CCI Dean's Ambassadors" />
+
+                <button class="button navbar-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html">Return to Main Site</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end top navigation bar -->
+
+    <!-- contact form -->
+    <div class="container">
+        <section class="section" style="width: 70%; margin: auto">
+            <form method="post">
+                <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                        <input name="name" class="input" type="text"/>
+                    </div>
+                </div>
+                
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input name="email" class="input" type="email"/>
+                    </div>
+                </div>
+                
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                        <textarea name="message" class="textarea"></textarea>
+                    </div>
+                </div>
+                
+                <div class="field">
+                    <div class="control">
+                        <button id="sendMsgBtn" class="button is-primary is-medium">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!-- end contact form -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="js/email.js"></script>
+</body>
+
+</html>
