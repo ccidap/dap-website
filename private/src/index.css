@@ -1,0 +1,110 @@
+body.is-light {
+    background: #fbfbfb;
+    min-height: 100vh;
+}
+
+.is-transparent {
+    background: transparent;
+}
+
+/* Tooltip
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.tooltip,
+.tooltip:hover {
+  position: relative;
+  color: #41d8bc;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+.tooltip .tip-text {
+  display: none;
+  position: absolute;
+}
+
+.tooltip:hover .tip-text {
+  display: block;
+  position: absolute;
+  left: 1em;
+  top: 2em;
+  z-index: 99;
+  margin-left: -50px;
+  background-color: #41d8bc;
+  color: #fff;
+  padding: 5%;
+  min-width: 80px;
+  font-size: 10pt;
+  border-radius: 3px;
+  height: auto;
+}
+
+.tooltip:hover .tip-text p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.tooltip:hover .tip-text p:last-child {
+  margin-bottom: 0px;
+}
+
+/* Availability
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.day-heading {
+  text-align: center;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 10px 0px;
+  text-transform: lowercase;
+}
+
+.time-heading {
+  padding: 10px 0px;
+  margin-bottom: 30.5px;
+  height: 30.5px;
+}
+
+.time-row {
+  display: block;
+  background-color: #fff;
+  margin: 15px -15px;
+  padding: 10px 15px;
+}
+
+.time-row.first {
+  margin-left: 0px;
+}
+
+.time-row.last {
+  margin-right: 0px;
+}
+
+.time-row > span {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 12.5px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dot {
+  background-color: #fff;
+  margin-right: 5px;
+}
+
+.dot img {
+  border-radius: 12.5px;
+  height: 25px;
+  width: 25px;
+  vertical-align: bottom;
+}
+
+.time-row > span:not(.dot) {
+  width: 0px;
+}
