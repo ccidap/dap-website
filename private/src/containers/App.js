@@ -15,9 +15,9 @@ class App extends Component {
                 <Nav />
                 
                 <Switch>
-                    <Route exact path='/' component={Dashboard} />
-                    <Route path='/availability' component={Availability} />
-                    <Route path='/documentation' component={Documentation} />
+                    <Route exact path='/private' component={Dashboard} />
+                    <Route path='/private/availability' component={Availability} />
+                    <Route path='/private/documentation' component={Documentation} />
                 </Switch>
             </div>
         </Router>

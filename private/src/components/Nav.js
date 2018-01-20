@@ -21,13 +21,13 @@ class Nav extends Component {
 
                     <div className='navbar-menu'>
                         <div className='navbar-end'>
-                            <NavLink to='/' exact className='navbar-item' activeClassName='is-active'>
+                            <NavLink to='/private' exact className='navbar-item' activeClassName='is-active'>
                                 Dashboard
                             </NavLink>
-                            <NavLink to='/availability' className='navbar-item' activeClassName='is-active'>
+                            <NavLink to='/private/availability' className='navbar-item' activeClassName='is-active'>
                                 Availability
                             </NavLink>
-                            <NavLink to='/documentation' className='navbar-item' activeClassName='is-active'>
+                            <NavLink to='/private/documentation' className='navbar-item' activeClassName='is-active'>
                                 Documentation
                             </NavLink>
                         </div>
