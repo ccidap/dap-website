@@ -1,6 +1,6 @@
 ### Web Developer
 
-Our team is looking for a Web Developer to manage current and develop new applications. Responsibilies updating website content, adding features to existing applications, managing Firebase data and storage, and developing new applications — as need be.
+Our team is looking for a Web Developer to manage, develop, and oversee all web applications. Responsibilities include updating website content, adding new features to existing applications, managing Firebase database/storage, and developing new applications.
 
 #### Required Skills
 

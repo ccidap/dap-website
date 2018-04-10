@@ -90,6 +90,13 @@
     <!-- jobs section -->
     <div class="container">
         <section class="section">
+            <div class="notification">
+                <p>
+                    The CCI Dean's Ambassador Program is now accepting applications for Fall 2018.&nbsp;
+                    <strong>Deadline to apply is April 23rd.</strong>
+                </p>
+            </div>
+
             <div class="columns">
                 <div class="column is-narrow">
                     <aside class="menu">
@@ -126,6 +133,8 @@
                     <!-- content is dynamically loaded via javascript -->
                 </h3>
                 <form method="post">
+                    <input name="position" type="hidden" value="Not Selected" />
+
                     <div class="field">
                         <label class="label">Name *</label>
                         <div class="control">
@@ -241,6 +250,7 @@
                 var selected = $(this).parent().attr('data-active-title');
                 $('#applyModal').addClass('is-active');
                 $('#selectedTitle').text('Application for ' + selected);
+                $('form input[name="position"]').val(selected);
             })
 
             $('.modal-close').click(function () {

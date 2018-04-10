@@ -4,7 +4,8 @@ const APPLICATION_URL =
 $('#submitAppBtn').click(function (e) {
     e.preventDefault();
 
-    var $name = $('form input[name="name"]'),
+    var $position = $('form input[name="position"]'),
+        $name = $('form input[name="name"]'),
         $email = $('form input[name="email"]'),
         $resume = $('form input[name="resume"]'),
         $link = $('form input[name="link"]'),
@@ -34,6 +35,7 @@ $('#submitAppBtn').click(function (e) {
 
     if (!hasErrors) {
         const form = new FormData();
+        form.append('entry.576707614', $position.val());
         form.append('entry.1336788624', $name.val());
         form.append('entry.804589195', $email.val());
         form.append('entry.9110849', $resume.val());
