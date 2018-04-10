@@ -186,7 +186,12 @@
         
         <!-- team section -->
         <section class="section">
-            <h1 class="title is-2 has-text-centered">Our teams</h1>
+            <h1 class="title is-2 is-spaced has-text-centered">Our teams</h1>
+            <h2 class="subtitle is-4 has-text-centered">
+                Interested in joining the team? View our <a href="apply.html">open positions</a>.
+            </p>
+
+            <br/>
 
             <div class="columns team-profiles">
                 <div class="column">
@@ -447,11 +452,13 @@
     </div>
     <!-- end contact modal -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <script src="js/main.js"></script>
     <script src="js/email.js"></script>
     <script src="js/smoothscroll.js"></script>
+
     <script>
         $('#contactBtn').click(function() {
             $('#contactModal').addClass('is-active');
@@ -459,27 +466,6 @@
 
         $('.modal-close').click(function() {
             $('.modal').removeClass('is-active');
-        })
-
-        document.addEventListener('DOMContentLoaded', function () {
-            var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-            if ($navbarBurgers.length > 0) {
-                $navbarBurgers.forEach(function ($el) {
-                    $el.addEventListener('click', function () {
-                        var target = $el.dataset.target;
-                        var $target = document.getElementById(target);
-
-                        $el.classList.toggle('is-active');
-                        $target.classList.toggle('is-active');
-                    });
-                });
-            }
-        });
-
-        $('.navbar-item').click(function() {
-            $('.navbar-burger').removeClass('is-active'); 
-            $('.navbar-menu').removeClass('is-active');
         })
     </script>
 </body>

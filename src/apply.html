@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CCI Dean's Ambassador Program</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <style>
+        .menu {
+            font-size: 1.1rem;
+        }
+
+        .menu-list .is-active a {
+            color: white;
+        }
+
+        .menu-list .is-active a:hover {
+            color: white;
+            background: #41D8BC;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- top navigation bar -->
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <a href="index.html" class="navbar-brand is-large">
+                <img src="img/logo.png" alt="CCI Dean's Ambassadors" />
+            </a>
+    
+            <div class="navbar-burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div id="navMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html#about">About</a>
+                    <a class="navbar-item" href="index.html#projects">Projects</a>
+                    <a class="navbar-item" href="index.html#team">Team</a>
+                    <a class="navbar-item" href="index.html#connect">Connect</a>
+                    <a class="navbar-item" href="https://www.facebook.com/cciuncc" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="navbar-item" href="https://www.instagram.com/cciuncc" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a class="navbar-item" href="https://www.youtube.com/channel/UC95gnz0NAQNVQjFSaNVUVsA" target="_blank">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end top navigation bar -->
+
+    <!-- landing section -->
+    <section class="hero is-primary is-small has-text-centered">
+        <div class="hero-body">
+            <div id="hero-container" class="container">
+                <h1 class="title is-2 is-size-5-mobile">Join the Team</h1>
+                <h2 class="subtitle is-3 is-size-6-mobile">Let’s do great things together.</h2>
+            </div>
+        </div>
+    </section>
+    
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 2000 553.4" style="enable-background:new 0 0 2000 553.4;" xml:space="preserve">
+        <style type="text/css">
+            .st0 {
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                fill: #41D8BC;
+            }
+        </style>
+        <path id="shield_back_1_" class="st0" d="M0,0h2000c-11,30.1-41.4,52.5-67.2,71.1C1501.1,382.3,3.3,553,0,553.4v0l0,0c0,0,0,0,0,0"
+        />
+    </svg>
+    <!-- end landing section -->
+
+    <!-- jobs section -->
+    <div class="container">
+        <section class="section">
+            <div class="columns">
+                <div class="column is-narrow">
+                    <aside class="menu">
+                        <ul id="introduction" class="menu-list">
+                            <li class="is-active">
+                                <a href="#">Introduction</a>
+                            </li>
+                        </ul>
+                        <p class="menu-label">
+                            Open Positions
+                        </p>
+                        <ul id="positions" class="menu-list">
+                            <!-- content is dynamically loaded via javascript -->
+                        </ul>
+                    </aside>
+                </div>
+                <div id="active-description" class="column" data-active-title="">
+                    <div class="content">
+                        <!-- content is dynamically loaded via javascript -->
+                    </div>
+                    <button id="applyBtn" class="button is-primary is-medium is-hidden">Apply Now</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- end jobs section -->
+
+    <!-- application modal -->
+    <div id="applyModal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="notification">
+                <h3 id="selectedTitle" class="title is-3">
+                    <!-- content is dynamically loaded via javascript -->
+                </h3>
+                <form method="post">
+                    <div class="field">
+                        <label class="label">Name *</label>
+                        <div class="control">
+                            <input required name="name" class="input" type="text"  placeholder="First Last" />
+                        </div>
+                        <p id="nameError" class="form-error help is-danger is-hidden">
+                            Please enter a valid name.
+                        </p>
+                    </div>
+            
+                    <div class="field">
+                        <label class="label">Student Email *</label>
+                        <div class="control">
+                            <input required name="email" class="input" type="email" placeholder="me@example.com" />
+                        </div>
+                        <p id="emailError" class="form-error help is-danger is-hidden">
+                            Please enter a valid email address.
+                        </p>
+                    </div>
+                    
+                    <div class="field is-expanded">
+                        <label class="label">Resume Link *</label>
+                        <div class="control">
+                            <input required name="resume" class="input" type="url" placeholder="https://example.com" />
+                        </div>
+                        <p id="resumeError" class="form-error help is-danger is-hidden">
+                            Please enter a valid resume link.
+                        </p>
+                    </div>
+
+                    <div class="field is-expanded">
+                        <label class="label">Website or Portfolio Link</label>
+                        <div class="control">
+                            <input name="link" class="input" type="url" placeholder="https://example.com" />
+                        </div>
+                        <p id="linkError" class="form-error help is-danger is-hidden">
+                            Please enter a valid website or portfolio link.
+                        </p>
+                    </div>
+            
+                    <div class="field">
+                        <div class="control">
+                            <button id="submitAppBtn" class="button is-primary is-medium">Submit Application</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!-- end application modal -->
+
+    <!-- confirm application modal -->
+    <div id="confirmAppModal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="notification">
+                <p>Thanks for applying! We will be in touch soon.</p>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!-- end confirm application modal -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/apply.js"></script>
+    
+    <script>
+        $(function() {
+            var rootPath = './data/jobs/';
+
+            $.ajax('./data/jobs.json').done((data) => {
+                var openJobs = data.filter(job => job.open === true);
+
+                $.each(openJobs, function (index, job) {
+                    var html =
+                        '<li data-id="' + job.id + '">' +
+                            '<a href="#' + job.id + '">' + job.title + '</a>' +
+                        '</li>';
+                    $('#positions').append(html);
+                })
+
+                $('#introduction li').click(function () {
+                    setActiveClass($(this));
+                    setActiveDescription("intro", rootPath + 'introduction.md', false);
+                })
+
+                $('#positions li').click(function () {
+                    setActiveClass($(this));
+
+                    $.ajax('./data/jobs.json').done((data) => {
+                        var id = $(this).attr('data-id'),
+                            job = data.find(job => id === job.id);
+
+                        setActiveDescription(job.title, rootPath + job.contentPath);
+                    });
+                })
+
+                var hash = window.location.hash
+
+                if (hash !== '' && hash !== '#') {
+                    var id = hash.substring(1, hash.length);
+                    $('#positions li[data-id=' + id + ']').click();
+                } else {
+                    setActiveDescription("intro", rootPath + 'introduction.md', false);
+                }
+            });
+
+            $('#applyBtn').click(function() {
+                var selected = $(this).parent().attr('data-active-title');
+                $('#applyModal').addClass('is-active');
+                $('#selectedTitle').text('Application for ' + selected);
+            })
+
+            $('.modal-close').click(function () {
+                $('.modal').removeClass('is-active');
+            })
+        })
+
+        function setActiveClass(obj) {
+            $('.menu-list li').removeClass('is-active');
+            obj.addClass('is-active');
+        }
+
+        function setActiveDescription(title, path, showBtn = true) {
+            $.ajax(path).done(function (data) {
+                var converter = new showdown.Converter(),
+                    text = data,
+                    html = converter.makeHtml(text);
+
+                $('#active-description').attr('data-active-title', title);
+                $('#active-description .content').html(html);
+
+                if (!showBtn) {
+                    $('#active-description .button').addClass('is-hidden');
+                } else {
+                    $('#active-description .button').removeClass('is-hidden');
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

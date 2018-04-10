@@ -1,0 +1,33 @@
+[
+    {
+        "id": "web_developer",
+        "title": "Web Developer",
+        "team": "Planning",
+        "contentPath": "web_developer.md",
+        "open": true
+    }, {
+        "id": "logistics_coordinator",
+        "title": "Logistics Coordinator",
+        "team": "Planning",
+        "contentPath": "logistics_coordinator.md",
+        "open": true
+    }, {
+        "id": "creating_team_lead",
+        "title": "Creating Team Lead",
+        "team": "Creating",
+        "contentPath": "creating_team_lead.md",
+        "open": true
+    }, {
+        "id": "photographer",
+        "title": "Photographer",
+        "team": "Creating",
+        "contentPath": "photographer.md",
+        "open": true
+    }, {
+        "id": "graphic_designer",
+        "title": "Graphic Designer",
+        "team": "Creating",
+        "contentPath": "graphic_designer.md",
+        "open": false
+    }
+]
