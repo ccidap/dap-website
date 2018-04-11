@@ -58,3 +58,10 @@ body.is-light {
 .team-profiles img {
     background: #41D8BC;
 }
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    #hero-container {
+        margin-top: 0;
+    }
+}
