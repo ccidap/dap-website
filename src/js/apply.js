@@ -7,6 +7,7 @@ $('#submitAppBtn').click(function (e) {
     var $position = $('form input[name="position"]'),
         $name = $('form input[name="name"]'),
         $email = $('form input[name="email"]'),
+        $classification = $('form select[name="classification"]'),
         $resume = $('form input[name="resume"]'),
         $link = $('form input[name="link"]'),
         hasErrors = false;
@@ -21,6 +22,11 @@ $('#submitAppBtn').click(function (e) {
     if ($email.is(':invalid')) {
         hasErrors = true;
         $('#emailError').removeClass('is-hidden');
+    }
+
+    if ($classification.is(':invalid') || $classification.val() === null) {
+        hasErrors = true;
+        $('#classificationError').removeClass('is-hidden');
     }
 
     if ($resume.is(':invalid')) {
@@ -38,6 +44,7 @@ $('#submitAppBtn').click(function (e) {
         form.append('entry.576707614', $position.val());
         form.append('entry.1336788624', $name.val());
         form.append('entry.804589195', $email.val());
+        form.append('entry.188157967', $classification.val());
         form.append('entry.9110849', $resume.val());
         form.append('entry.1775675393', $link.val());
 
