@@ -6,8 +6,8 @@ The Dean's Ambassador Program is a group of students dedicated to supporting, pr
 
 A position of Dean's Ambassador is one of high esteem and a source of self enrichment. A Dean's Ambassador shall possess the following qualifications:	
 
-- A CCI undergraduate student with a cumulative GPA of 3.0			
-- Dedication to the group (can commit up to 5-6 hours/week)
+- A CCI undergraduate student with a cumulative GPA of 3.0
+- Dedication to the group (can commit up to 10 hours/week)
 - Commitment to leadership development
 - Sincere desire to represent the College
 - Effective speaking skills and ability to make a positive first impression
@@ -16,7 +16,7 @@ A position of Dean's Ambassador is one of high esteem and a source of self enric
 
 #### Responsibilities
 
-- Be knowledgeable about CCI programs and faculty members. 		
+- Be knowledgeable about CCI programs and faculty members.
 - Become the T-­shaped model student to their peers.
 - Interact with students at recruitment events: Explore Open House, Admitted Students Day.
 - Assist with CCI events: Scholarship Reception, Dean’s High Achievers, Award Luncheon.
