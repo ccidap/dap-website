@@ -6,6 +6,9 @@ body.is-light {
     color: #3273dc !important;
     text-decoration: none !important
 }
+.is-96x96 img{
+  height:96px;
+}
 
 .is-primary:not(.is-inverted) {
     background: #41D8BC !important;
