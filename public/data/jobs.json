@@ -4,7 +4,7 @@
         "title": "Web Developer",
         "team": "Planning",
         "contentPath": "web_developer.md",
-        "open": true
+        "open": false
     }, {
         "id": "logistics_coordinator",
         "title": "Logistics Coordinator",
@@ -16,18 +16,42 @@
         "title": "Creating Team Lead",
         "team": "Creating",
         "contentPath": "creating_team_lead.md",
-        "open": true
+        "open": false
     }, {
         "id": "photographer",
         "title": "Photographer",
         "team": "Creating",
         "contentPath": "photographer.md",
-        "open": true
+        "open": false
     }, {
         "id": "graphic_designer",
         "title": "Graphic Designer",
         "team": "Creating",
         "contentPath": "graphic_designer.md",
         "open": false
+    }, {
+      "id": "program_lead",
+      "title": "Program Lead",
+      "team": "Creating",
+      "contentPath": "program_lead.md",
+      "open": true
+    }, {
+      "id": "media_coordinator",
+      "title": "Media Coordinator",
+      "team": "Creating",
+      "contentPath": "media_coordinator.md",
+      "open": true
+    }, {
+      "id": "connecting_team_lead",
+      "title": "Connecting Team Lead",
+      "team": "Connecting",
+      "contentPath": "connecting_team_lead.md",
+      "open": true
+    }, {
+      "id": "activity_director",
+      "title": "Activity Director",
+      "team": "Connecting",
+      "contentPath": "activity_director.md",
+      "open": true
     }
 ]
