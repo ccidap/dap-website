@@ -53,5 +53,11 @@
       "team": "Connecting",
       "contentPath": "activity_director.md",
       "open": true
+    },  {
+      "id": "innovating_team_lead",
+      "title": "Innovating Team Lead",
+      "team": "Innovating",
+      "contentPath": "innovating_team_lead.md",
+      "open": true
     }
 ]
