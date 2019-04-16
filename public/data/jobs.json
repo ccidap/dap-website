@@ -10,7 +10,7 @@
         "title": "Logistics Coordinator",
         "team": "Planning",
         "contentPath": "logistics_coordinator.md",
-        "open": true
+        "open": false
     }, {
         "id": "creating_team_lead",
         "title": "Creating Team Lead",
@@ -34,7 +34,7 @@
       "title": "Program Lead",
       "team": "Creating",
       "contentPath": "program_lead.md",
-      "open": true
+      "open": false
     }, {
       "id": "media_coordinator",
       "title": "Media Coordinator",
@@ -46,18 +46,18 @@
       "title": "Connecting Team Lead",
       "team": "Connecting",
       "contentPath": "connecting_team_lead.md",
-      "open": true
+      "open": false
     }, {
       "id": "activity_director",
       "title": "Activity Director",
       "team": "Connecting",
       "contentPath": "activity_director.md",
-      "open": true
+      "open": false
     },  {
       "id": "innovating_team_lead",
       "title": "Innovating Team Lead",
       "team": "Innovating",
       "contentPath": "innovating_team_lead.md",
-      "open": true
+      "open": false
     }
 ]
